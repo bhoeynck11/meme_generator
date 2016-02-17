@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset='utf-8' name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href='css/normalize.css' rel='stylesheet' type="text/css" media="screen">
+    <link href='css/main.css' rel='stylesheet' type="text/css" media='screen'>
+</head>
+
+<body>
+
+    <div id='content-wrapper'>
+    
+        <div id='header'>
+            <a href='index.html'><h1>Meme Generator</h1></a>
+            <ul class='nav-links'>
+                <li><a href='#'>FAQs</a></li>
+                <li><a href='#'>Contact</a></li>
+            </ul>
+        </div>
+        
+        
+        <div class='meme-generator'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-sm-6 col1'>
+                        <div class='meme'>
+                        <img src='https://mlpforums.com/uploads/monthly_05_2015/post-5578-0-71809700-1430530334.jpg' id='meme-pic' class='img-responsive'>
+                        <h1 id='top-caption' class='captions'></h1>
+                        <h1 id='bottom-caption' class='captions'></h1>
+                        </div>
+                        <div id='colors'>
+                            <button id='red' class='changeColor'></button>
+                            <button id='green' class='changeColor'></button>
+                            <button id='blue' class='changeColor'></button>
+                            <button id='yellow' class='changeColor'></button>
+                            <button id='orange' class='changeColor'></button>
+                            <button id='black' class='changeColor'></button>
+                            <button id='white' class='changeColor'></button>
+                        </div>
+                    </div>
+                    <div class='col-sm-6 col2'>
+                        <form>
+                            <div class='form-group'>
+                                <label for="url-entry">Enter a URL Here:</label><br>
+                                <input class='form-control' type='url' autocomplete="off" id='url-entry'>
+                                <button id='pic-btn'>Go</button>
+                            </div>
+                            <div class='form-group'>
+                                <label for='top-caption-input'>Upper Caption:</label><br>
+                                <input class='form-control'type='text' id='top-caption-input'>
+                            </div>
+                            <div class='form-group'>
+                                <label for='bottom-caption-input'>Lower Caption:</label>
+                                <input class='form-control' type='text' id='bottom-caption-input'>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>      
+        </div>
+        
+        <br><br><br>
+        
+   
+        
+        
+        
+            
+    </div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src='memes.js'></script>
+</body>
+
+
+</html>
