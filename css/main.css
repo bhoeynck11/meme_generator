@@ -87,7 +87,7 @@ meme generator
     position: absolute;
     top:8px;
     left:3px;
-    font-size: 2em;
+    font-size: 3em;
     right:3px;
     text-align: center;
     color:white;
@@ -99,14 +99,13 @@ meme generator
     position: absolute;
     bottom:-10px;
     right:0;
+    font-size: 3em;
     left:0;
     color:white;
     text-align: center;
     font-weight: 700;
    -webkit-text-stroke: 1.25px black;
 }
-
-
 
 label {
     color:white;
@@ -122,7 +121,7 @@ label {
     box-shadow: none;
     border:1px solid white;
     border-radius: 100%;
-    
+    margin-bottom: 40px;
 }
 
 #colors {
@@ -156,6 +155,132 @@ label {
 #white {
     background-color: white;
     border:1px solid black;
+}
+
+.url {
+    display:flex;
+    flex-direction: row;
+}
+
+.url input {
+    margin-right: 15px;
+}
+
+#pic-btn {
+    padding: 0 30px;
+    background: black;
+    color:white;
+    border:white 1px solid;
+    box-shadow: none;
+}
+
+#pic-btn:hover {
+    background: white;
+    color: black;
+    border:1px solid black;
+    transition:all 0.25s;
+}
+
+/*-------------
+contact form
+--------------*/
+
+.contact-form h2, .about-me h2, .contact-methods h2 {
+    color:white;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom:25px;
+}
+
+.contact-form label {
+    font-weight: 300;
+}
+
+.btn-submit {
+    box-shadow: none;
+    border:1px solid black;
+    background:white;
+    padding:8px 40px;
+    margin: 25px auto 0 auto;
+    display: block;
+} 
+
+.btn-submit:hover {
+    border:1px solid white;
+    color:white;
+    background:black;
+    transition: all 0.5s;
+}
+
+/*-----------------
+contact - about me
+------------------*/
+
+.about-me p {
+    font-weight: 300;
+    color:white;
+}
+
+/*-------------
+contact links
+--------------*/
+
+.contact-links {
+    text-align: center;
+}
+
+.contact-links a {
+    color:white;
+    font-weight: 300;
+}
+
+.contact-links li {
+    margin-bottom: 10px;
+}
+
+.contact-links img {
+    padding-right: 10px;
+}
+
+.contact-links a:hover {
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+/*-------------
+faq page
+--------------*/
+
+.question {
+    color:white;
+    width:80%;
+    margin:0 auto 30px auto;
+}
+
+.question p {
+    font-weight: 300;
+}
+
+.question h4 {
+    text-align: center;
+}
+
+.faqs {
+    margin-top:50px;
+}
+
+.faqs h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+hr {
+    width:30%;
+    color:white;
+    margin-bottom: 50px;
 }
 
 

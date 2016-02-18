@@ -2,8 +2,9 @@ $(document).ready(function() {
   
     
 //Take a user-supplied URL and change the img's src attribute to that URL when the "change picture" button is pressed. To make better...find a way to allow uploadable files from user's computer?
-$("#pic-btn").click(function() {
-    var storeURL = $("#url-entry").val();
+$("#pic-btn").click(function(event) {
+    event.preventDefault();
+    var storeURL = $(".url-entry-input").val();
     $('#meme-pic').attr("src", storeURL);  
 });
     
