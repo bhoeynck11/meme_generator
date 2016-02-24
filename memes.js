@@ -54,6 +54,11 @@ $("#bottom-caption-input").keyup(function() {
     });  
     
 //Ok, now a way to make it DRY?
+    
 
+    
+    
+    
+    
     
 }); //end document ready
